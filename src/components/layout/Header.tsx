@@ -90,6 +90,7 @@ const Header = () => {
             >
               About Us
             </NavLink>
+            {/*
             <motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400 }}>
               <Button onClick={() => setComingSoon(true)} variant="outline" className="border-pink-500 text-pink-500 hover:bg-pink-50">
                 Login
@@ -100,6 +101,7 @@ const Header = () => {
                 Sign Up
               </Button>
             </motion.div>
+            */}
           </nav>
 
           {/* Mobile Toggle Button */}
@@ -161,12 +163,14 @@ const Header = () => {
             >
               About Us
             </NavLink>
+            {/*
             <Button onClick={() => setComingSoon(true)} variant="outline" className="w-full border-pink-500 text-pink-500 hover:bg-pink-50">
               Login
             </Button>
             <Button onClick={() => setComingSoon(true)} className="w-full bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:opacity-90">
               Sign Up
             </Button>
+            */}
           </div>
         )}
 
