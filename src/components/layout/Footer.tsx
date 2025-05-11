@@ -14,7 +14,7 @@ const Footer = () => {
               banking solutions.
             </p>
             <div className="flex space-x-4">
-              {/* Facebook */}
+              {/* Facebook 
               <a
                 href="https://facebook.com"
                 target="_blank"
@@ -34,10 +34,11 @@ const Footer = () => {
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                 </svg>
               </a>
+              */}
 
               {/* Twitter */}
               <a
-                href="https://twitter.com"
+                href="https://x.com/flixapaygroup"
                 target="_blank"
                 className="text-white/70 hover:text-blue-400 transition-colors"
               >
@@ -58,7 +59,7 @@ const Footer = () => {
 
               {/* Instagram */}
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/flixapaygroup"
                 target="_blank"
                 className="text-white/70 hover:text-purple-500 transition-colors"
               >
@@ -81,7 +82,7 @@ const Footer = () => {
 
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/flixapaygroup"
                 target="_blank"
                 className="text-white/70 hover:text-blue-500 transition-colors"
               >
@@ -104,7 +105,7 @@ const Footer = () => {
 
               {/* Threads */}
               <a
-                href="https://www.threads.net"
+                href="https://www.threads.com/@flixapaygroup"
                 target="_blank"
                 className="text-white/70 hover:text-black transition-colors"
               >
@@ -126,7 +127,7 @@ const Footer = () => {
 
               {/* YouTube */}
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/channel/UC8aIhw1RRl-TQxlaRMfwFOA"
                 target="_blank"
                 className="text-white/70 hover:text-red-600 transition-colors"
               >
