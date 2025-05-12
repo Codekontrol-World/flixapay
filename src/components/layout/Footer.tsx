@@ -299,13 +299,13 @@ const Footer = () => {
           </p>
           <div className="flex space-x-6 pb-4">
             <a
-              href=""
+              href="/cookies"
               className="text-white/70 hover:text-fintech-teal transition-colors text-sm"
             >
               Cookies
             </a>
             <a
-              href="/privacy"
+              href="/terms"
               className="text-white/70 hover:text-fintech-teal transition-colors text-sm"
             >
               Terms
@@ -317,7 +317,7 @@ const Footer = () => {
               Privacy
             </a>
             <a
-              href=""
+              href="/security"
               className="text-white/70 hover:text-fintech-teal transition-colors text-sm"
             >
               Security
