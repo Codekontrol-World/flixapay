@@ -1,8 +1,12 @@
+import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
 
 
 const TermsPage = () => {
   return (
-    <>
+    <div className="font-futura">
+      <Header />
+      <div className="pt-64 md:pt-40 lg:pt-48">
  
       <main className="max-w-3xl mx-auto px-4 py-10 text-gray-800">
         <h1 className="text-3xl font-bold mb-6">Terms and Conditions</h1>
@@ -32,7 +36,9 @@ const TermsPage = () => {
 
         <p className="text-sm text-gray-500 mt-10">Last updated: May 2025</p>
       </main>
-    </>
+         </div>
+      <Footer />
+    </div>
   );
 };
 
