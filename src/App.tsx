@@ -10,6 +10,7 @@ import Mission from "./pages/Mission";
 import LongPage from "./pages/Services";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
+import TermsPage from "./pages/TermsPage";
 
 const queryClient = new QueryClient();
 
