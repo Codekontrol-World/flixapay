@@ -25,7 +25,9 @@ const App = () => (
           <Route path="/download" element={<DownloadLinks />} />
           <Route path="/services" element={<LongPage />} />
           <Route path="/mission" element={<Mission />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
+           <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/cookies" element={<CookiesPage />} />
+          <Route path="/security" element={<SecurityPage />} />
           <Route path="/about" element={<About />} />
          
           <Route path="*" element={<NotFound />} />
