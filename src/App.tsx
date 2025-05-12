@@ -10,6 +10,8 @@ import Mission from "./pages/Mission";
 import LongPage from "./pages/Services";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import About from "./pages/About";
+import SecurityPage from "./pages/SecurityPage";
+import CookiesPage from "./pages/CookiesPage";
 import TermsPage from "./pages/TermsPage";
 
 const queryClient = new QueryClient();
@@ -26,7 +28,7 @@ const App = () => (
           <Route path="/download" element={<DownloadLinks />} />
           <Route path="/services" element={<LongPage />} />
           <Route path="/mission" element={<Mission />} />
-           <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/cookies" element={<CookiesPage />} />
           <Route path="/security" element={<SecurityPage />} />
