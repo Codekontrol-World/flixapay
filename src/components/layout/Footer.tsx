@@ -194,14 +194,7 @@ const Footer = () => {
                   Expense Management
                 </a>
               </li>
-              <li>
-                <a
-                  href="/services"
-                  className="text-white/70 hover:text-fintech-teal transition-colors"
-                >
-                  API Integration
-                </a>
-              </li>
+              
             </ul>
           </div>
 
@@ -267,15 +260,7 @@ const Footer = () => {
                 </a>
               </li>
 
-              <li>
-                <a
-                  href=""
-                  className="text-white/70 hover:text-fintech-teal transition-colors"
-                >
-                  Press
-                </a>
-              </li>
-              <li>
+               <li>
                 <a
                   href="mailto:hello@flixapaygroup.com"
                   className="text-white/70 hover:text-fintech-teal transition-colors"
@@ -283,15 +268,7 @@ const Footer = () => {
                   Contact
                 </a>
               </li>
-              <li>
-                <a
-                  href=""
-                  className="text-white/70 hover:text-fintech-teal transition-colors"
-                >
-                  Partnerships
-                </a>
-              </li>
-            </ul>
+             </ul>
           </div>
         </div>
 
