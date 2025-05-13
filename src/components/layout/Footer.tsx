@@ -205,6 +205,7 @@ const Footer = () => {
             </ul>
           </div>
 
+          {/*
           <div>
             <h3 className="font-semibold text-lg mb-4">Resources</h3>
             <ul className="space-y-2">
@@ -252,6 +253,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          */}
 
           <div>
             <h3 className="font-semibold text-lg mb-4">Company</h3>
