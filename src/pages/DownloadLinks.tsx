@@ -7,9 +7,9 @@ import { FaWindows, FaApple, FaLinux } from 'react-icons/fa';
 
 const DownloadSection = () => {
   return (
-    <div className='font-futura pt-44 md:pt-24 lg:pt-20'>
+    <div className='font-futura'>
       <Header />
-    <section className="bg-white min-h-screen font-futura flex flex-col items-center justify-center py-20 px-4 text-white">
+    <section className="bg-white min-h-screen font-futura flex flex-col items-center justify-center pb-20 pt-44 md:pt-24 lg:pt-20 px-4 text-white">
       {/* Heading */}
       <div className="text-center mb-10">
         <h2 className="text-3xl text-pink-500 md:text-5xl font-bold mb-3">Download Flixapay</h2>
