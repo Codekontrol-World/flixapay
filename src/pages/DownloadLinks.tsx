@@ -7,7 +7,7 @@ import { FaWindows, FaApple, FaLinux } from 'react-icons/fa';
 
 const DownloadSection = () => {
   return (
-    <div className='font-futura'>
+    <div className='font-futura pt-44 md:pt-24 lg:pt-20'>
       <Header />
     <section className="bg-white min-h-screen font-futura flex flex-col items-center justify-center py-20 px-4 text-white">
       {/* Heading */}
