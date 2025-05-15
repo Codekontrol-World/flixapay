@@ -45,7 +45,7 @@ const PrivacyPolicy = () => {
 
                 <h2 className="text-2xl font-semibold mt-8 mb-4">7. Contact Us</h2>
                 <p className="mb-4">
-                    If you have any questions or concerns about this Privacy Policy, please contact us at [Your Contact Email].
+                    If you have any questions or concerns about this Privacy Policy, please contact us at <a href="mailto:hello@flixapaygroup.com">hello@flixapaygroup.com</a>.
                 </p>
 
                 <p className="mt-10 text-sm text-gray-500">Last updated: 01/01/2025</p>
