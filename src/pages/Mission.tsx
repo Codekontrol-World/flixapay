@@ -51,8 +51,8 @@ const Mission = () => {
 
             {[
               "At FlixaPay, we’re revolutionizing financial access for everyone—no matter where they are. Our digital solutions connect underserved and developed markets with real-time, affordable banking tools.",
-              "We provide individuals with digital wallets, micro-loans, and low-cost cross-border payments. Businesses benefit from payroll solutions, PoS systems, and multi-currency accounts—all on one unified platform.",
-              "With a seamless user experience and scalable tech, FlixaPay isn’t just a product—it’s a financial evolution.",
+              "The platform offers individuals digital wallets, micro-loans, and affordable cross-border payments, while businesses gain access to payroll solutions, PoS systems, and multi-currency accounts, all integrated into a single, unified system.",
+              "With a smooth user experience and adaptable technology, FlixaPay is more than just a product provider — it's a transformative revolution.",
             ].map((text, i) => (
               <motion.p
                 key={i}
@@ -84,9 +84,9 @@ const Mission = () => {
             </motion.h2>
 
             {[
-              "FlixaPay partners with top institutions to provide robust financial infrastructure for both individuals and enterprises.",
-              "We are structured as a corporation to ensure stability, innovation, and scalability. Our open API invites developers to extend our platform's capabilities with custom apps and integrations.",
-              "FlixaPay is preparing to launch as soon as possible with a mission to offer secure, convenient, and low-cost financial services across borders—positioning us as a leader in inclusive digital banking."
+              "FlixaPay works with top institutions to deliver a strong financial foundation that empowers both individuals and enterprises.",
+              "Our corporate structure provides the stability, innovation, and scalability necessary to support open API. This API allows developers to build custom applications and integrations, extending the capabilities of the online platform.",
+              "Launching soon, FlixaPay's mission is to revolutionise digital banking by sourcing secure, convenient, and low-cost cross-border solutions.",
             ].map((text, i) => (
               <motion.p
                 key={i}

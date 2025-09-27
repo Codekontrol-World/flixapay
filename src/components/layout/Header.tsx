@@ -40,7 +40,7 @@ const Header = () => {
         className={`fixed w-full z-50 transition-all duration-300 bg-[#161635] `}
       >
 
-        <Notice />
+        {/* <Notice /> */}
         <div className="container mx-auto px-4 flex items-center justify-between py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center">
