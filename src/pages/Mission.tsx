@@ -19,7 +19,7 @@ const Mission = () => {
   return (
     <div className="font-futura">
       <Header />
-      <section className="bg-gradient-to-br from-pink-50 via-white to-pink-100 pt-64 md:pt-40 lg:pt-48">
+      <section className="bg-gradient-to-br from-pink-50 via-white to-pink-100 pt-32 md:pt-40 lg:pt-48">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-7xl  mx-auto py-16 px-6 lg:px-20">
           {/* Image */}
           <motion.div

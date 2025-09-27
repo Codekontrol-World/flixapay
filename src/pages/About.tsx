@@ -10,7 +10,7 @@ export default function About() {
     <div className="font-futura">
       <Header />
       <div className="bg-gradient-to-b from-pink-50 to-blue-50 min-h-screen pb-6 font-futura">
-        <section className="bg-gradient-to-br  pt-64 md:pt-40 lg:pt-48 px-4 from-pink-500 via-purple-500 to-blue-500 text-white py-16 md:py-24">
+        <section className="bg-gradient-to-br  pt-32 md:pt-40 lg:pt-48 px-4 from-pink-500 via-purple-500 to-blue-500 text-white py-16 md:py-24">
           <div className="max-w-5xl mx-auto">
             <motion.h2
               className="text-4xl md:text-5xl font-bold mb-10 text-center"
@@ -109,7 +109,7 @@ export default function About() {
             </motion.p>
           </div>
         </section>
-        <div className="max-w-5xl mx-auto py-6">
+        <div className="max-w-5xl mx-auto py-6 px-2">
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
