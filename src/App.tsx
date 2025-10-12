@@ -13,6 +13,7 @@ import About from "./pages/About";
 import SecurityPage from "./pages/SecurityPage";
 import CookiesPage from "./pages/CookiesPage";
 import TermsPage from "./pages/TermsPage";
+import Tracker from "./components/Tracker";
 
 const queryClient = new QueryClient();
 
@@ -22,7 +23,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-
+      <Tracker />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/download" element={<DownloadLinks />} />

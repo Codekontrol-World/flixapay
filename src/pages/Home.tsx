@@ -77,7 +77,7 @@ export default function Hero() {
     <div className=" font-futura">
       <WaitlistPopup isOpen={showPopup} onClose={() => setShowPopup(false)} />
 
-      <section className="pt-16">
+      <section className="pt-10">
         <img src="/banner.jpg" alt="Banner" className="w-full" />
       </section>
       <section className="bg-gradient-to-br min-h-screen from-[#2f2f72] via-[#373a84] to-[#1d8b92] text-white px-4 py-20 flex items-center">
